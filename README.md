@@ -17,6 +17,9 @@
 4. Flex-box
 5. Figma
 
+Ссылка на проект:
+https://github.com/vasilev-aleksandr/russian-travel.git
+
 
 
 
