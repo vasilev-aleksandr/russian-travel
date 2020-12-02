@@ -1,0 +1,14 @@
+@import url(../__language/_active/header__language_active.css);
+.header__language {
+  text-decoration-line: none;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 767px) {
+.header__language {
+  font-size: 18px;
+  line-height: 24px;
+  }
+}

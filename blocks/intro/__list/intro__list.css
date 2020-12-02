@@ -1,0 +1,8 @@
+.intro__list{
+  list-style-type: none;
+  max-width: 383px;
+  min-width: 283px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
