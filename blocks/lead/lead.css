@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 985px;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {
