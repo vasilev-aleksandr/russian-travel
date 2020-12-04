@@ -9,23 +9,10 @@
   z-index: 3;
 }
 
-@media screen and (max-width: 1279px) {
-  .cover__subtitle {
-    margin-bottom: 195px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__subtitle{
-    margin-bottom: 115px;   
-   }
-}
-
 @media screen and (max-width: 767px) {
   .cover__subtitle{
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 33px;
     max-width: 288px;
     }
   }

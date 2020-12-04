@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 1279px) {
   .page {
-    max-width: 928px;
+    max-width: 100%;
   }
 }
 
