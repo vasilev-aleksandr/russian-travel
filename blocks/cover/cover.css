@@ -5,24 +5,30 @@
 .cover {
   margin-top: 12px;
   margin-bottom: 92px;
-  min-width: 1184px;
+  position: relative;
+  width: 1184px;
+  height: 740px;
 }
 
 @media screen and (max-width: 1279px) {
-.cover {
- min-width: 100vw;
-}
+  .cover {
+    width: 100%;
+    max-height: 640px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .cover{
     margin-bottom: 88px;
-    min-width: 100vw;
+    width: 100%;
+    max-height: 480px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover{
+    width: 100%;
+    max-height: 200px;
     margin-top: 16px;
     margin-bottom: 64px;
   }

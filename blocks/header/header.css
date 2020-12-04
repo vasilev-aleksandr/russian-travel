@@ -6,20 +6,34 @@
 
 .header {
   display: flex;
+  flex-grow: 1;
   justify-content: space-between;
   align-items: flex-end;
-  min-width: 1184px;
+  align-self: stretch;
   padding-top: 28px;
+  margin-right: 48px;
+  margin-left: 48px;
   }
 
 @media screen and (max-width: 1279px) {
   .header {
-    min-width: 100%;
-  } 
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+
+@media screen and (max-width: 1023px) {
+  .header {
+    margin-right: 24px;
+    margin-left: 24px;
+  }
 }
+
 
 @media screen and (max-width: 767px) {
   .header{
+    margin-right: 16px;
+    margin-left: 16px; 
     padding-top: 16px;
   }   
 }
