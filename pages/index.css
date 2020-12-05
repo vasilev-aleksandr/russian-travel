@@ -1,8 +1,9 @@
-@import url(../fonts/inter.css);
 @import url(../vendor/normalize.css);
+@import url(../fonts/inter.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/main/main.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
@@ -11,8 +12,3 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
-
-.content{
-margin: 0 auto;
-}

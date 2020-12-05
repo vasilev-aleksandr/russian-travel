@@ -1,4 +1,6 @@
+@import url(../footer/__navigation/footer__navigation.css);
 @import url(../footer/__links/footer__links.css);
+@import url(../footer/__link-item/footer__link-item.css);
 @import url(../footer/__link/footer__link.css);
 @import url(../footer/__copyright/footer__copyright.css);
 
@@ -6,23 +8,22 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-self: stretch;
+  align-self: center;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 48px;
-  margin-left: 48px;
+  max-width: 1184px;
+  width: calc(100% - 96px);
 }
 
 @media screen and (max-width: 1279px) {
   .footer {
-    margin-right: 24px;
-    margin-left: 24px;
-  
+    width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .footer {
+    width: calc(100% - 16px);
     flex-direction: column;
     margin-left: 16px;
     margin-right: 0;
